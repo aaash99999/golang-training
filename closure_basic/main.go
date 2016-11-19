@@ -11,6 +11,7 @@ func main() {
 		return x
 	}
 
+	fmt.Printf("The type of the increment variable is: %T\n", increment)
 	fmt.Println(increment())
 	fmt.Println(increment())
 }
